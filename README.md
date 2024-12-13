@@ -9,7 +9,7 @@ This repository serves as a template for storing various configuration files, Gi
     to make copying easier.
 
 ## Usage
-This template repository is primarily consumed by the `auro-cli` tool using `auro sync`. Please checkout the link below for more information on how to use the `auro-cli` tool.
+This template repository is primarily consumed by the `auro-cli` tool using `auro sync`. Please check out the link below for more information on how to use the `auro-cli` tool.
 
 Secondarily, each auro component will be updated to use this repository instead of `WC-Generator` as the source for README files.
 
