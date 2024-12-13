@@ -2,14 +2,11 @@ repository:
   # See https://docs.github.com/en/free-pro-team@latest/rest/reference/repos#edit for all available settings.
   # See https://github.com/apps/settings for app settings
 
-  # A short description of the repository that will show up on GitHub
-  description: Custom element that ....
-
   # A URL with more information about the repository
   homepage: https://auro.alaskaair.com/components/auro/[name]
 
   # A comma-separated list of topics to set on the repository
-  topics: auro, design-system, custom-element, generator-v[genVersionDash]
+  topics: auro, design-system, custom-element
 
   # Either `true` to enable issues for this repository, `false` to disable them.
   has_issues: true
