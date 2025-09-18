@@ -7,6 +7,8 @@ This repository serves as a template for storing various configuration files, Gi
   - **default/**: A directory for storing default templates - use this when synchronizing most auro components.
     - **.github/**: A directory for storing GitHub templates. This exactly matches a "real" `.github` directory in structure
     to make copying easier.
+    - **partials/**: Reusable markdown files that contain common documentation sections (browser support, development guides, usage instructions, etc.)
+    - **README.md**: Main README template for auro components (includes installation instructions, usage examples, and API documentation)
 
 ## Usage
 This template repository is primarily consumed by the `auro-cli` tool using `auro sync`. Please check out the link below for more information on how to use the `auro-cli` tool.
