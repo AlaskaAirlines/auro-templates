@@ -5,7 +5,7 @@ README.md is created by running `npm run build:docs`.
 
 This file is generated based on a template fetched from
 `https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/templates/default/README.md`
-and copied to `./componentDocs/README.md` each time the the docs are compiled.
+and copied to `./componentDocs/README.md` each time the docs are compiled.
 
 The following sections are editable by making changes to the following files:
 
