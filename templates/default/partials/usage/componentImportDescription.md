@@ -1,1 +1,1 @@
-Defining the component dependency within each component that is using the `<[namespace]-[name]>` component.
+Defining the dependency within each project that is using the `<[namespace]-[name]>` component.
