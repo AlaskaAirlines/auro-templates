@@ -25,9 +25,9 @@ The following sections are editable by making changes to the following files:
 <!-- AURO-GENERATED-CONTENT:START (FILE:src=./docs/partials/readmeAddlInfo.md) -->
 <!-- AURO-GENERATED-CONTENT:END -->
 
-## UI development browser support
+## Use Cases
 
-<!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/browserSupport.md) -->
+<!-- AURO-GENERATED-CONTENT:START (FILE:src=./docs/partials/useCases.md) -->
 <!-- AURO-GENERATED-CONTENT:END -->
 
 ## Install
@@ -35,12 +35,7 @@ The following sections are editable by making changes to the following files:
 <!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/usage/componentInstall.md) -->
 <!-- AURO-GENERATED-CONTENT:END -->
 
-### Design Token CSS Custom Property dependency
-
-<!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/development/designTokens.md) -->
-<!-- AURO-GENERATED-CONTENT:END -->
-
-### Define dependency in project component
+### Define Dependency in Project
 
 <!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/usage/componentImportDescription.md) -->
 <!-- AURO-GENERATED-CONTENT:END -->
@@ -48,38 +43,40 @@ The following sections are editable by making changes to the following files:
 <!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/usage/componentImport.md) -->
 <!-- AURO-GENERATED-CONTENT:END -->
 
-**Reference component in HTML**
-<!-- AURO-GENERATED-CONTENT:START (CODE:src=./apiExamples/basic.html) -->
-<!-- AURO-GENERATED-CONTENT:END -->
-
-## Use CDN
+### Use CDN
 
 <!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/usage/bundleInstallDescription.md) -->
 <!-- AURO-GENERATED-CONTENT:END -->
 
-## {{ withAuroNamespace name }} use cases
-
-<!-- AURO-GENERATED-CONTENT:START (FILE:src=./docs/partials/useCases.md) -->
-<!-- AURO-GENERATED-CONTENT:END -->
-
-## API Code Examples
-
-### Default {{ withAuroNamespace name }}
+## Basic Example
 
 <!-- AURO-GENERATED-CONTENT:START (CODE:src=./apiExamples/basic.html) -->
 <!-- AURO-GENERATED-CONTENT:END -->
 
-## Development
+## Custom Component Registration for Version Management
 
-<!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/development/developmentDescription.md) -->
+There are two key parts to every Auro component: the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">class</a> and the custom element definition.
+The class defines the component’s behavior, while the custom element registers it under a specific name so it can be used in HTML.
+
+When you install the component as described on the `Install` page, the class is imported automatically, and the component is registered globally for you.
+
+However, if you need to load multiple versions of the same component on a single page (for example, when two projects depend on different versions), you can manually register the class under a custom element name to avoid conflicts.
+
+You can do this by importing only the component class and using the `register(name)` method with a unique name:
+
+<!-- AURO-GENERATED-CONTENT:START (FILE:src=./docs/partials/customRegistration.md) -->
 <!-- AURO-GENERATED-CONTENT:END -->
 
-### Start development environment
+<div class="exampleWrapper exampleWrapper--flex">
+  <!-- AURO-GENERATED-CONTENT:START (FILE:src=./apiExamples/custom.html) -->
+  <!-- AURO-GENERATED-CONTENT:END -->
+</div>
 
-<!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/development/localhost.md) -->
+<auro-accordion alignRight>
+  <span slot="trigger">See code</span>
+
+<!-- AURO-GENERATED-CONTENT:START (CODE:src=./apiExamples/custom.html) -->
 <!-- AURO-GENERATED-CONTENT:END -->
 
-### Testing
+</auro-accordion>
 
-<!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/development/testing.md) -->
-<!-- AURO-GENERATED-CONTENT:END -->
