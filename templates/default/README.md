@@ -64,7 +64,7 @@ However, if you need to load multiple versions of the same component on a single
 
 You can do this by importing only the component class and using the `register(name)` method with a unique name:
 
-<!-- AURO-GENERATED-CONTENT:START (FILE:src=./docs/partials/customRegistration.md) -->
+<!-- AURO-GENERATED-CONTENT:START (REMOTE:url=https://raw.githubusercontent.com/AlaskaAirlines/auro-templates/main/templates/default/partials/usage/customRegistration.md) -->
 <!-- AURO-GENERATED-CONTENT:END -->
 
 <div class="exampleWrapper exampleWrapper--flex">
