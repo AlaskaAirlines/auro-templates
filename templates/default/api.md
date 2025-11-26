@@ -11,8 +11,8 @@
 <auro-accordion alignRight>
   <span slot="trigger">See code</span>
 
-  <!-- AURO-GENERATED-CONTENT:START (FILE:src=./../apiExamples/basic.html) -->
-  <!-- AURO-GENERATED-CONTENT:END -->
+<!-- AURO-GENERATED-CONTENT:START (CODE:src=./../apiExamples/basic.html) -->
+<!-- AURO-GENERATED-CONTENT:END -->
 
 </auro-accordion>
 
