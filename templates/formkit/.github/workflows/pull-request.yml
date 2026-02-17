@@ -20,4 +20,4 @@ jobs:
         ./node_modules
         ./custom-elements.json
     secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      NPM_TOKEN: $\{{ secrets.NPM_TOKEN }}

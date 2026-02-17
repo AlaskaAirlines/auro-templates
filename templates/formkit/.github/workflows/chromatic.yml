@@ -12,4 +12,4 @@ jobs:
   action:
     uses: AlaskaAirlines/auro-actions/.github/workflows/chromatic.yml@main
     secrets:
-      CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+      CHROMATIC_PROJECT_TOKEN: $\{{ secrets.CHROMATIC_PROJECT_TOKEN }}
