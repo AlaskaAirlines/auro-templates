@@ -16,33 +16,33 @@
 
 </auro-accordion>
 
-## Property & Attribute Examples
+## Property and attribute examples
 
 <!-- Add all property and attribute examples here, remove section if none exist -->
 
-## Method Examples
+## Method examples
 
 <!-- Add all method examples here, remove section if none exist -->
 
-## Event Examples
+## Event examples
 
 <!-- Add all event examples here, remove section if none exist -->
 
-## Slot Examples
+## Slot examples
 
 <!-- Add all slot examples here, remove section if none exist -->
 
-## CSS Shadow Part Examples
+## CSS shadow part examples
 
-<!-- Add all CSS Shadow Part examples here, remove section if none exist -->
+<!-- Add all CSS shadow part examples here, remove section if none exist -->
 
-## Common Usage Patterns & Functional Examples
+## Common usage patterns
 
 <!-- Add any common usage patterns or functional examples here, remove section if none exist -->
 
-## Restyle Component with CSS Variables
+## Restyle with CSS custom properties
 
-The component may be restyled by changing the values of the following token(s).
+Restyle the component by changing the values of the following tokens.
 
 <!-- Remove section if component does not have any component specific tokens -->
 
