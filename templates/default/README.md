@@ -55,10 +55,10 @@ The following sections are editable by making changes to the following files:
 
 ## Custom component registration for version management
 
-There are two key parts to every Auro component: the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">class</a> and the custom element definition.
+Every Auro component has two key parts: the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">class</a> and the custom element definition.
 The class defines the component’s behavior, while the custom element registers it under a specific name so it can be used in HTML.
 
-When you install the component as described on the `Install` page, the class is imported automatically, and the component is registered globally for you.
+When you install the component as described in the Install section, the class is imported automatically, and the component is registered globally for you.
 
 However, if you need to load multiple versions of the same component on a single page (for example, when two projects depend on different versions), register the class manually under a custom element name to avoid conflicts.
 
