@@ -1,1 +1,1 @@
-In cases where the project is not able to process JS assets, there are pre-processed assets available for use.
+If the project can't process JS assets, pre-processed assets are available for use.
